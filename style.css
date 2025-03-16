@@ -1,0 +1,30 @@
+.textt {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-decoration-color: black;
+    margin-top: 10px;
+}
+
+.textt:hover{
+    color: rgb(0, 149, 255);
+}
+
+.custom-image {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.custom-navbar{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-image: linear-gradient(to right, #ffffff, #5fb6f9);
+}
+
+.navi {
+    position: relative; /* Pastikan navbar memiliki posisi yang diatur */
+    z-index: 1; /* Memberikan prioritas agar berada di depan lingkaran */
+    background-color: white; /* Warna latar navbar (opsional) */
+}

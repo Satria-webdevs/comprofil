@@ -1,0 +1,123 @@
+@media screen and (min-width: 1024px) {
+.text0{
+    font-size: 40px;
+    margin-top: 100px;
+    font-weight: bold;
+    text-align: center; 
+    line-height: 1.2;
+    text-transform:inherit;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(50, 152, 255);
+}
+}
+
+.vid{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.video-grid{
+    display: grid;
+    gap: 20px;
+}
+
+.marr{
+    margin-top: 80px;
+}
+
+.text1{
+    margin-top: 220px;
+    text-align:end; 
+    line-height: 1.2;
+    text-transform:inherit;
+    font-family: 'Open Sans', sans-serif;
+    color: blue(42, 156, 255);
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hr{
+    height: 5px;
+    background-color: black;
+    border: 5px solid black; /* Tebal dan warna garis */
+    border-radius: 5px;
+    border: none;
+  background: linear-gradient(to right, #0d3a5c, s#000000);
+}
+
+@media screen and (min-width: 1024px) {
+    .text2{
+        font-size: 150px;
+        margin-top: 40px;
+        font-weight: bold;
+        text-align: center; 
+        line-height: 1.2;
+        text-transform:inherit;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(54, 104, 255);
+        opacity: 30%;
+    }
+}
+
+.container-xxl {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(135deg, #40619f, #3e80f1);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.quote{
+    flex: 1;
+    padding-right: 20px;
+}
+
+.quote::before {
+    font-size: 30px;
+    color: #f39c12;
+}
+
+.author {
+    margin-top: 80px;
+    font-weight: bold;
+    justify-content: right;
+    text-align: right;
+}
+
+.kontak{
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center; 
+    line-height: 1.2;
+    text-transform:inherit;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.ppp{
+    text-align: center;
+}
+
+.button{
+    margin-top: 100px;
+    justify-content: space-evenly;
+    align-items: end;
+    text-align: right;
+    margin-bottom: 250px;
+}
+
+.pee{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    color: white;
+}
